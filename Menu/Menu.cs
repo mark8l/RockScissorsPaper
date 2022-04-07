@@ -38,7 +38,7 @@ namespace RockScissorsPaper
             {
                 tb.AddRow(_table[i]);
             }            
-            tb.Write();           
+            tb.Write(Format.Alternative);           
         }
 
         private void GenTable() 
